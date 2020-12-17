@@ -1,0 +1,533 @@
+* {
+    border: 0;
+    margin: 0;
+    padding: 0;
+  }
+  body{
+    background-color: #ebebeb;
+  }
+  .main_body{
+    height: 100vh;
+  }
+  .header {
+    position: relative;
+    width: 1260px;
+    height: 110px;
+    background-color: #f0f0f0;
+    margin: auto;
+    border: 0.1px solid #b3b3b3;
+  }
+  .image {
+    background-image: url(../image/logo-filezen.png);
+    display: inline-block;
+    margin-top: 38px;
+    margin-left: 18px;
+    background-position: 35% 50%;
+    height: 30px;
+    width: 130px;
+  }
+  .login_note {
+    color: #b3b3b3;
+    position: absolute;
+    display: inline-block;
+    top: 6px;
+    right: 21px;
+  }
+  .account {
+    position: absolute;
+    display: inline-block;
+    top: 32px;
+    right: 85px;
+  }
+  .head_icon {
+    border-radius: 50%;
+    background-color: #222222;
+    position: absolute;
+    right: 159px;
+    top: 36px;
+    width: 8px;
+    height: 8px;
+  }
+  .body_icon {
+    background-color: #222222;
+    position: absolute;
+    right: 155px;
+    top: 45px;
+    width: 16px;
+    height: 9px;
+    border-radius: 6px 6px 0px 0px;
+  }
+  .border_menu {
+    border-width: 1px;
+    border-color: #222222;
+    border-style: solid;
+    border-radius: 3px;
+    background-color: #f0f0f0;
+    position: absolute;
+    right: 21px;
+    top: 32px;
+    width: 25px;
+    height: 25px;
+  }
+  .line_1 {
+    background-color: #666666;
+    position: absolute;
+    right: 27px;
+    top: 38px;
+    width: 15px;
+    height: 2px;
+  }
+  .line_2 {
+    background-color: #666666;
+    position: absolute;
+    right: 27px;
+    top: 43px;
+    width: 15px;
+    height: 2px;
+  }
+  .line_3 {
+    background-color: #666666;
+    position: absolute;
+    right: 27px;
+    top: 48px;
+    width: 15px;
+    height: 2px;
+  }
+  /* .all_content{
+        width: 1260px;
+  height: 9000px;
+  background-color: white;
+  margin: auto;
+  border: 0.1px solid #b3b3b3;  width: 1260px;
+  height: 900px;
+  background-color: white;
+  margin: auto;
+  border: 0.1px solid #b3b3b3;
+  } */
+  
+  .button_header_right{
+    position: absolute;
+    background-color: #f6f6f6;
+    border: 0.1px solid #666666;
+    color: #333333;
+    padding: 3px 56px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+    border-radius: 3px;
+    right: 21px;
+    top: 68px;
+  }
+  .button_header_between{
+    margin: auto;
+    position: relative;
+    background-color: #0066cc;
+    color: #000000;
+    width: 1261px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin-top: 39px;
+    display: inline-block;
+  }
+  .text_button_header_between{
+      width: 60px;
+      margin: auto;
+      color: white;
+  }
+.content{
+    position: relative;
+    width: 1260px;
+    height: 138px;
+    background-color: white;
+    margin:21px auto;
+    box-sizing: border-box;
+}
+.text_between_content{
+    margin: 0px auto;
+    width: 100px;
+    height: 40px;
+}
+.content_search{
+    position: absolute;
+    background-color: #f0f0f0;
+    border: none;
+    width: 1210px;
+    height: 85px;
+    margin-left: 24px;
+
+}
+.content_textbox_search{
+    position: absolute;
+    background-color: white;
+    width: 249px;
+    height: 29px;
+    border-radius: 3px;
+    border: 1px solid #999999;
+    margin: 16px;
+}
+.content_img_search{
+    background-image: url(../image/Search.png);
+    display: inline-block;
+    margin-top: 6px;
+    margin-left: 224px;
+    background-position: 10% 50%;
+    height: 16px;
+    width: 16px;
+}
+.content_button_search{
+    position: absolute;
+    background-color: #fafafa;
+    border: 1px solid #666666;
+    color: #666666;
+    height: 31px;
+    width: 60px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+    border-radius: 3px;
+    top: 16px;
+    left: 272px;
+}
+.content_checkbox{
+    position: absolute;
+    background-color: white;
+    width: 14px;
+    height: 14px;
+    border: 1px solid #999999;
+    margin-top: 56px;
+    margin-left: 16px;
+}
+.content_text_checkbox{
+    font-size: 14px;
+    margin-top: 54px;
+    margin-left: 42px;
+}
+
+.content_icon_trash{
+   background-image: url(../image/Trash.png);
+    float: right;
+    margin-top: -26px;
+    margin-right: 50px;
+    background-position: 10% 50%;
+    height: 24px;
+    width: 20px;
+}
+.content_icon_menu{
+    background-image: url(../image/category.png);
+    float: right;
+    float: top;
+    margin-right: 18px;
+    margin-top: -26px;
+    height: 24px;
+    width: 24px;
+}
+.content_main{
+    position: relative;
+    width: 1260px;
+    height: 660px;
+    background-color: white;
+    margin: -22px auto;
+    border-style: solid solid solid solid;
+  
+}
+.content_item {
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    overflow-y: scroll;
+    margin-right: 26px;
+    margin-top: 10px;
+}
+.box_child1{
+    width: 180px;
+    height: 195px;
+    border: 1px solid #999999;
+    background-color: white;
+    margin-left: 24px ;
+    margin-top: 24px;
+}
+.check {
+    width: 60px;
+    height: 16px;
+    border: 1px solid red;
+    margin-left: -23px;
+    margin-top: -1px;
+
+  }
+.img_box_child1{
+    background-image: url(../image/word.png);
+    margin: 20px auto;
+    background-position: 10% 50%;
+    height: 96px;
+    width: 100px;
+}
+.line_horizontal_child1{
+    border:none;
+    border-top:1px dotted #999999;
+    color:#fff;
+    background-color:#fff;
+    height:1px;
+    width:100%;
+    margin-top: 5px;
+}
+.text_boxchild{
+    display: flex;
+    flex-wrap: wrap;
+}
+.text1_box_child1{
+    font-size: 11px;
+    margin-left: 10px;
+    margin-top: 11px;
+}
+.text2_box_child1{
+    font-size: 11px;
+    margin-left: 50px;
+    margin-top: 12px;
+}
+
+.box_child2{
+    width: 180px;
+    height: 195px;
+    border: 1px solid #999999;
+    background-color: white;
+    margin-left: 9px ;
+    margin-top: 24px;
+}
+.checkbox_child1{
+    width: 14px;
+    height: 14px;
+    border: 2px solid #999999;
+    background-color: white;
+
+}
+.img_box_child2{
+    background-image: url(../image/zip.png);
+    margin: 20px auto;
+    background-position: 10% 50%;
+    height: 96px;
+    width: 84px;
+}
+.img_box_child3{
+    background-image: url(../image/excel.png);
+    margin: 20px auto;
+    background-position: 10% 50%;
+    height: 96px;
+    width: 96px;
+}
+.line_horizontal_child1{
+    border:none;
+    border-top:1px dotted #999999;
+    color:#fff;
+    background-color:#fff;
+    height:1px;
+    width:100%;
+    margin-top: 5px;
+}
+.text_boxchild2{
+    display: flex;
+    flex-wrap: wrap;
+}
+.text1_box_child2{
+    font-size: 11px;
+    margin-left: 10px;
+    margin-top: 11px;
+}
+.text2_box_child2{
+    font-size: 11px;
+    margin-left: 65px;
+    margin-top: 12px;
+}
+
+.box_child3{
+    width: 180px;
+    height: 195px;
+    border: 1px solid #999999;
+    background-color: white;
+    margin-left: 24px ;
+    margin-top: 24px;
+}
+.checkbox_child1{
+    width: 14px;
+    height: 14px;
+    border: 2px solid #999999;
+    background-color: white;
+
+}
+.img_box_child2{
+    margin: 20px auto;
+    background-position: 10% 50%;
+    height: 96px;
+    width: 84px;
+}
+.line_horizontal_child1{
+    border:none;
+    border-top:1px dotted #999999;
+    color:#fff;
+    background-color:#fff;
+    height:1px;
+    width:100%;
+    margin-top: 5px;
+}
+.text_boxchild3{
+    display: flex;
+    flex-wrap: wrap;
+}
+.text1_box_child3{
+    font-size: 11px;
+    margin-left: 10px;
+    margin-top: 11px;
+}
+.text2_box_child3{
+    font-size: 11px;
+    margin-left: 50px;
+    margin-top: 12px;
+}
+.button_content_main{
+    width: 1260px;
+    height: 800px;
+    background-color: white;
+    border-style: solid solid solid solid;
+    margin: 20px auto;
+}
+.button_bot{
+
+    background-color: #fefefe;
+    border: 0.1px solid #0066cc;
+    color: #0066cc;
+    width: 140px;
+    height: 24px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+    border-radius: 3px;
+    margin-left: 24px;
+    float: left;
+    margin-top: 500px;
+
+}
+.button_bot1{
+    background-color: #fefefe;
+    border: 0.1px solid #ff6600;
+    color: #ff6600;
+    width: 140px;
+    height: 24px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+    border-radius: 3px;
+    float: right;
+    margin-right: 24px;
+    margin-top: 500px;
+}
+
+@media screen and (max-width: 1000px) {
+    div.header
+    {
+    width: 1000px;    
+    }
+  }
+  @media screen and (max-width: 1000px) {
+    div.button_header_between
+    {
+    width: 1000px;    
+    }
+  }
+  @media screen and (max-width: 1000px) {
+    div.content
+    {
+    width: 1000px;    
+    }
+  }
+  @media screen and (max-width: 1000px) {
+    div.content_search
+    {
+    width: 950px;    
+    }
+  }
+  @media screen and (max-width: 1000px) {
+    div.content_item
+    {
+    width: 950px;    
+    }
+  }
+  @media screen and (max-width: 1000px) {
+    div.content_main
+    {
+    width: 1000px;    
+    }
+  }
+  @media screen and (max-width: 1000px) {
+    div.button_content_main
+    {
+    width: 1000px;    
+    }
+  }
+
+
+  
+@media screen and (max-width: 800px) {
+    div.header
+    {
+    width: 800px;    
+    }
+  }
+  @media screen and (max-width: 800px) {
+    div.button_header_between
+    {
+    width: 800px;    
+    }
+  }
+  @media screen and (max-width: 800px) {
+    div.content
+    {
+    width: 800px;    
+    }
+  }
+  @media screen and (max-width: 800px) {
+    div.content_search
+    {
+    width: 800px;    
+    }
+  }
+
+
+ 
+@media screen and (max-width: 600px) {
+    div.header
+    {
+    width: 600px;    
+    }
+  }
+  @media screen and (max-width: 600px) {
+    div.button_header_between
+    {
+    width: 600px;    
+    }
+  }
+  @media screen and (max-width: 600px) {
+    div.content
+    {
+    width: 600px;    
+    }
+  }
+  @media screen and (max-width: 600px) {
+    div.content_search
+    {
+    width: 550px;    
+    }
+  }
+  @media screen and (max-width: 600px) {
+    div.button_content_main
+    {
+    width: 600px;    
+    }
+  }
+  @media screen and (max-width: 600px) {
+    div.content_item
+    {
+    width: 600px;    
+    }
+  }
+  
+  

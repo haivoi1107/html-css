@@ -1,0 +1,116 @@
+* {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+.content_main {
+  width: 100%;
+  height: 100%;
+  background: white;
+  margin: 290px auto;
+  display: flex;
+}
+.Frames {
+  padding: 25px 35px;
+  width: 415px;
+  height: 375px;
+  margin: auto;
+  border-radius: 2%;
+  box-sizing: border-box;
+  background-color:  #ffd9d9;
+}
+.image {
+  background-image: url(../image/logo-filezen.png);
+  margin: auto;
+  background-position: 35% 50%;
+  height: 30px;
+  width: 130px;
+}
+.line_horizontal {
+  margin-top: 15px;
+  width: 100%;
+  height: 1px;
+  background: #7b001e;
+}
+.title {
+  position: relative;
+  margin-top: 22px;
+}
+.line_vertical {
+  margin-top: 15px;
+  width: 4px;
+  height: 20px;
+  background: #b7183f;
+}
+h1 {
+  position: absolute;
+  top: -4px;
+  left: 16px;
+  font-size: 20px;
+}
+.textbox_id {
+  width: 345px;
+  height: 35px;
+  margin-top: 18px;
+  background: white;
+  border-radius: 3px;
+  border: 0.1px solid #7b001e;
+}
+input::placeholder {
+  color: #999999;
+  padding: 12px;
+  font-size: 16px;
+}
+
+.textbox_pass {
+  width: 345px;
+  height: 35px;
+  margin-top: 18px;
+  background: white;
+  border-radius: 3px;
+  border: 0.1px solid #7b001e;
+}
+.button_login::placeholder {
+  padding: 140px;
+  color: white;
+  font-size: 16px;
+}
+.button_login {
+  width: 345px;
+  height: 35px;
+  margin-top: 18px;
+  background: #0066cc;
+  border-radius: 3px;
+  border: 0.1px solid black;
+}
+.question{
+  margin-top: 10px;
+  font-size: 16px;
+  color: #222222;
+}
+.changes{
+  background-color: #0066cc;
+}
+.changed{
+  background-color: #d9edf7;
+}
+
+.content1 .Frames{
+  background-color:  #d9edf7;
+}
+.content1 .line_horizontal{
+  background: #0066cc;
+}
+.content1 .line_vertical{
+  background: #0066cc;
+
+}
+
+.content1 .textbox_id{
+  border: 0.1px solid  #0066cc;
+}
+
+.content1 .textbox_pass{
+  border: 0.1px solid  #0066cc;
+
+}
